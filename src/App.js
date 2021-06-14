@@ -2,7 +2,7 @@ import axios from "axios";
 import React, {useEffect, useState} from "react";
 import "./App.css";
 import PokemonCard from "./PokemonCard";
-/*Poke APP*/
+/*Poke APP Uitwerking*/
 function App() {
     const [pokemonnames, setPokemonnames] = useState(null);
     const [next, setNext] = useState('https://pokeapi.co/api/v2/pokemon?limit=20');
